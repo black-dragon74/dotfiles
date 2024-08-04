@@ -18,25 +18,23 @@ return {
     lazy = false,
     config = function()
       local capabilities = require("cmp_nvim_lsp").default_capabilities()
-
       local lspconfig = require("lspconfig")
-      lspconfig.tailwindcss.setup({
-        capabilities = capabilities,
-      })
-      lspconfig.tsserver.setup({
-        capabilities = capabilities,
-      })
-      lspconfig.solargraph.setup({
-        capabilities = capabilities,
-      })
-      lspconfig.html.setup({
-        capabilities = capabilities,
-      })
+
       lspconfig.lua_ls.setup({
         capabilities = capabilities,
       })
+
       lspconfig.gopls.setup({
         capabilities = capabilities,
+        settings = {
+          gopls = {
+            usePlaceholders = true,
+            completeUnimported = true,
+            analyses = {
+              unusedparams = true,
+            },
+          },
+        },
       })
 
       vim.keymap.set("n", "K", vim.lsp.buf.hover, {})

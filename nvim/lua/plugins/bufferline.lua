@@ -5,6 +5,17 @@ return {
   },
 
   config = function()
-    require("bufferline").setup({})
+    require("bufferline").setup({
+      options = {
+        offsets = {
+          {
+            filetype = "neo-tree",
+            text = "File Explorer",
+            highlight = "Directory",
+            separator = true,
+          },
+        },
+      },
+    })
   end,
 }
