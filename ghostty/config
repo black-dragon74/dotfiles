@@ -1,0 +1,33 @@
+# Ricingggg
+theme = "catppuccin-mocha"
+title = "👻"
+
+# Set TERM
+term = "xterm-256color"
+
+# Font config
+font-family = "JetBrainsMono NFM"
+font-style = "Medium"
+font-size = "16"
+
+# Cursor settings
+cursor-invert-fg-bg = true
+cursor-style = block
+cursor-style-blink = true
+mouse-hide-while-typing = true
+
+# Window size and pos
+window-height = "26"
+window-width = "126"
+window-position-x = 0
+window-position-y = 0
+window-save-state = "always"
+window-colorspace = "display-p3"
+
+# Window: macOS specific
+macos-titlebar-proxy-icon = "hidden"
+
+# Shell integration
+shell-integration = detect
+shell-integration-features = true
+
