@@ -7,8 +7,9 @@ term = "xterm-256color"
 
 # Font config
 font-family = "JetBrainsMono NFM"
-font-style = "Medium"
+font-style = "Regular"
 font-size = "16"
+font-thicken = true
 
 # Cursor settings
 cursor-invert-fg-bg = true
