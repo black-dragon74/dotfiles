@@ -27,6 +27,7 @@ window-colorspace = "display-p3"
 
 # Window: macOS specific
 macos-titlebar-proxy-icon = "hidden"
+macos-non-native-fullscreen = "true"
 
 # Shell integration
 shell-integration = detect
