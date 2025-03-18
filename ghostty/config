@@ -32,3 +32,6 @@ macos-non-native-fullscreen = "true"
 # Shell integration
 shell-integration = detect
 shell-integration-features = no-cursor
+
+# Enable click-to-follow link
+link-url = "true"
