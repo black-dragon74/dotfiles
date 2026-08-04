@@ -1,15 +1,19 @@
 # Ricingggg
-theme = "catppuccin-mocha"
-title = "👻"
+theme = "Catppuccin Mocha"
 
-# Set TERM
-term = "xterm-256color"
+# Line height
+adjust-cell-height = "10%"
 
 # Font config
 font-family = "JetBrainsMono NFM"
-font-style = "Regular"
 font-size = "16"
 font-thicken = true
+font-thicken-strength = 255
+font-synthetic-style = "false"
+
+# Clipboard settings
+clipboard-read = allow
+clipboard-write = allow
 
 # Cursor settings
 cursor-invert-fg-bg = true
@@ -22,15 +26,28 @@ window-height = "26"
 window-width = "126"
 window-position-x = 0
 window-position-y = 0
+window-padding-x = 0
+window-padding-y = 0
+window-padding-color = background
+window-padding-balance = true
 window-save-state = "always"
 window-colorspace = "display-p3"
+window-vsync = "false"
+
+# Decrease scroll sensitivity
+mouse-scroll-multiplier = 0.5
 
 # Window: macOS specific
 macos-titlebar-proxy-icon = "hidden"
+macos-titlebar-style = "tabs"
 
 # Shell integration
-shell-integration = detect
+shell-integration = fish
 shell-integration-features = no-cursor
 
 # Enable click-to-follow link
 link-url = "true"
+quit-after-last-window-closed = true
+
+# Custom icon
+macos-icon = "xray"
